@@ -1,0 +1,10 @@
+C:\Users\Jan Bellenberg\source\repos\Passwort_Generator\Passwort_Generator\bin\Debug\Passwort_Generator.exe.config
+C:\Users\Jan Bellenberg\source\repos\Passwort_Generator\Passwort_Generator\bin\Debug\Passwort_Generator.exe
+C:\Users\Jan Bellenberg\source\repos\Passwort_Generator\Passwort_Generator\bin\Debug\Passwort_Generator.pdb
+C:\Users\Jan Bellenberg\source\repos\Passwort_Generator\Passwort_Generator\obj\Debug\Passwort_Generator.csprojAssemblyReference.cache
+C:\Users\Jan Bellenberg\source\repos\Passwort_Generator\Passwort_Generator\obj\Debug\Passwort_Generator.MainForm.resources
+C:\Users\Jan Bellenberg\source\repos\Passwort_Generator\Passwort_Generator\obj\Debug\Passwort_Generator.Properties.Resources.resources
+C:\Users\Jan Bellenberg\source\repos\Passwort_Generator\Passwort_Generator\obj\Debug\Passwort_Generator.csproj.GenerateResource.cache
+C:\Users\Jan Bellenberg\source\repos\Passwort_Generator\Passwort_Generator\obj\Debug\Passwort_Generator.csproj.CoreCompileInputs.cache
+C:\Users\Jan Bellenberg\source\repos\Passwort_Generator\Passwort_Generator\obj\Debug\Passwort_Generator.exe
+C:\Users\Jan Bellenberg\source\repos\Passwort_Generator\Passwort_Generator\obj\Debug\Passwort_Generator.pdb
