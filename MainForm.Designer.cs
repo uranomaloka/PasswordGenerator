@@ -33,6 +33,10 @@
             this.cbLength = new System.Windows.Forms.ComboBox();
             this.tbpsw = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.chbsmall = new System.Windows.Forms.CheckBox();
+            this.chbLarge = new System.Windows.Forms.CheckBox();
+            this.chbNumbers = new System.Windows.Forms.CheckBox();
+            this.chbSpecial = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -73,7 +77,7 @@
             // 
             // tbpsw
             // 
-            this.tbpsw.Location = new System.Drawing.Point(12, 79);
+            this.tbpsw.Location = new System.Drawing.Point(12, 117);
             this.tbpsw.Name = "tbpsw";
             this.tbpsw.Size = new System.Drawing.Size(201, 20);
             this.tbpsw.TabIndex = 2;
@@ -81,17 +85,61 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 63);
+            this.label2.Location = new System.Drawing.Point(9, 101);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Output";
             // 
+            // chbsmall
+            // 
+            this.chbsmall.AutoSize = true;
+            this.chbsmall.Location = new System.Drawing.Point(12, 52);
+            this.chbsmall.Name = "chbsmall";
+            this.chbsmall.Size = new System.Drawing.Size(104, 17);
+            this.chbsmall.TabIndex = 3;
+            this.chbsmall.Text = "Small characters";
+            this.chbsmall.UseVisualStyleBackColor = true;
+            // 
+            // chbLarge
+            // 
+            this.chbLarge.AutoSize = true;
+            this.chbLarge.Location = new System.Drawing.Point(133, 52);
+            this.chbLarge.Name = "chbLarge";
+            this.chbLarge.Size = new System.Drawing.Size(107, 17);
+            this.chbLarge.TabIndex = 4;
+            this.chbLarge.Text = "Large Characters";
+            this.chbLarge.UseVisualStyleBackColor = true;
+            // 
+            // chbNumbers
+            // 
+            this.chbNumbers.AutoSize = true;
+            this.chbNumbers.Location = new System.Drawing.Point(12, 75);
+            this.chbNumbers.Name = "chbNumbers";
+            this.chbNumbers.Size = new System.Drawing.Size(68, 17);
+            this.chbNumbers.TabIndex = 5;
+            this.chbNumbers.Text = "Numbers";
+            this.chbNumbers.UseVisualStyleBackColor = true;
+            // 
+            // chbSpecial
+            // 
+            this.chbSpecial.AutoSize = true;
+            this.chbSpecial.Location = new System.Drawing.Point(133, 75);
+            this.chbSpecial.Name = "chbSpecial";
+            this.chbSpecial.Size = new System.Drawing.Size(115, 17);
+            this.chbSpecial.TabIndex = 6;
+            this.chbSpecial.Text = "Special Characters";
+            this.chbSpecial.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(241, 112);
+            this.ClientSize = new System.Drawing.Size(261, 159);
+            this.Controls.Add(this.chbSpecial);
+            this.Controls.Add(this.chbNumbers);
+            this.Controls.Add(this.chbLarge);
+            this.Controls.Add(this.chbsmall);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbpsw);
             this.Controls.Add(this.cbLength);
@@ -111,6 +159,10 @@
         private System.Windows.Forms.ComboBox cbLength;
         private System.Windows.Forms.TextBox tbpsw;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox chbsmall;
+        private System.Windows.Forms.CheckBox chbLarge;
+        private System.Windows.Forms.CheckBox chbNumbers;
+        private System.Windows.Forms.CheckBox chbSpecial;
     }
 }
 
