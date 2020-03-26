@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.label1 = new System.Windows.Forms.Label();
             this.btnGenerate = new System.Windows.Forms.Button();
             this.cbLength = new System.Windows.Forms.ComboBox();
@@ -50,12 +51,13 @@
             // 
             // btnGenerate
             // 
+            this.btnGenerate.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnGenerate.Location = new System.Drawing.Point(106, 25);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(107, 21);
-            this.btnGenerate.TabIndex = 1;
+            this.btnGenerate.TabIndex = 5;
             this.btnGenerate.Text = "Generate";
-            this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.UseVisualStyleBackColor = false;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // cbLength
@@ -80,7 +82,7 @@
             this.tbpsw.Location = new System.Drawing.Point(12, 117);
             this.tbpsw.Name = "tbpsw";
             this.tbpsw.Size = new System.Drawing.Size(201, 20);
-            this.tbpsw.TabIndex = 2;
+            this.tbpsw.TabIndex = 6;
             // 
             // label2
             // 
@@ -97,7 +99,7 @@
             this.chbsmall.Location = new System.Drawing.Point(12, 52);
             this.chbsmall.Name = "chbsmall";
             this.chbsmall.Size = new System.Drawing.Size(104, 17);
-            this.chbsmall.TabIndex = 3;
+            this.chbsmall.TabIndex = 1;
             this.chbsmall.Text = "Small characters";
             this.chbsmall.UseVisualStyleBackColor = true;
             // 
@@ -107,7 +109,7 @@
             this.chbLarge.Location = new System.Drawing.Point(133, 52);
             this.chbLarge.Name = "chbLarge";
             this.chbLarge.Size = new System.Drawing.Size(107, 17);
-            this.chbLarge.TabIndex = 4;
+            this.chbLarge.TabIndex = 2;
             this.chbLarge.Text = "Large Characters";
             this.chbLarge.UseVisualStyleBackColor = true;
             // 
@@ -117,7 +119,7 @@
             this.chbNumbers.Location = new System.Drawing.Point(12, 75);
             this.chbNumbers.Name = "chbNumbers";
             this.chbNumbers.Size = new System.Drawing.Size(68, 17);
-            this.chbNumbers.TabIndex = 5;
+            this.chbNumbers.TabIndex = 3;
             this.chbNumbers.Text = "Numbers";
             this.chbNumbers.UseVisualStyleBackColor = true;
             // 
@@ -127,7 +129,7 @@
             this.chbSpecial.Location = new System.Drawing.Point(133, 75);
             this.chbSpecial.Name = "chbSpecial";
             this.chbSpecial.Size = new System.Drawing.Size(115, 17);
-            this.chbSpecial.TabIndex = 6;
+            this.chbSpecial.TabIndex = 4;
             this.chbSpecial.Text = "Special Characters";
             this.chbSpecial.UseVisualStyleBackColor = true;
             // 
@@ -135,6 +137,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(261, 159);
             this.Controls.Add(this.chbSpecial);
             this.Controls.Add(this.chbNumbers);
@@ -145,6 +148,7 @@
             this.Controls.Add(this.cbLength);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "Password Generator";
             this.ResumeLayout(false);
