@@ -19,9 +19,19 @@ namespace Passwort_Generator
             cbLength.SelectedIndex = 0;
         }
 
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            ToolTip toolTip = new ToolTip();
+            toolTip.SetToolTip(this.btnGenerate, "Generate your Password");
+            toolTip.SetToolTip(this.chbLarge, "Add large Characters to your Password");
+            toolTip.SetToolTip(this.chbsmall, "Add small Characters to your Password");
+            toolTip.SetToolTip(this.chbNumbers, "Add Numbers to your Password");
+            toolTip.SetToolTip(this.chbSpecial, "Add special Characters to your Password");
+        }
+
         private void btnGenerate_Click(object sender, EventArgs e)
         {
-            if(chbLarge.Checked)
+            if (chbLarge.Checked)
             {
                 generation.chlarge = true;
             }
@@ -29,7 +39,7 @@ namespace Passwort_Generator
             {
                 generation.chlarge = false;
             }
-            
+
             if (chbsmall.Checked)
             {
                 generation.chsmall = true;
@@ -57,10 +67,12 @@ namespace Passwort_Generator
                 generation.chspecial = false;
             }
             tbpsw.Text = generation.Generationmethod(Convert.ToInt32(cbLength.SelectedItem));
-            if(tbpsw.Text=="")
+            if (tbpsw.Text == "")
             {
-            MessageBox.Show("You need to check at least one checkbox");
+                MessageBox.Show("You need to check at least one checkbox");
             }
         }
+
+
     }
 }
